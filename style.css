@@ -6,6 +6,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-image: url(ippo_exemplo_portfólio.jpg);
+    
 }
 
 header {
@@ -29,6 +31,7 @@ section {
     padding: 40px 0;
     max-width: 1000px;
     margin: auto;
+    background-color: black;
 }
 
 #sobre-mim {
@@ -80,19 +83,3 @@ footer {
     margin: 20px auto;
     display: block;
 }
-
-/* Ajuste para a responsividade */
-@media (max-width: 768px) {
-    section {
-        padding: 20px;
-    }
-
-    h1, h2 {
-        font-size: 1.5em;
-    }
-
-    .foto-perfil {
-        max-width: 120px;
-    }
-}
-
